@@ -13,9 +13,9 @@ import Barscan2 from "./pages/BarcodeScanner2";
 
 function App() {
   return (
-    <div className="App">
-      <div className="App-header">
-        <Router>
+    <Router>
+      <div className="App">
+        <div className="App-header">
           <div>
             <Switch>
               <Route exact path="/">
@@ -32,9 +32,9 @@ function App() {
               </Route>
             </Switch>
           </div>
-        </Router>
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 
