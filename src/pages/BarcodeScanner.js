@@ -30,7 +30,7 @@ class BarcodeScanner extends Component {
 
         <Paper
           variant="outlined"
-          style={{ marginTop: 15, width: 642, height: 322 }}
+          style={{ marginTop: 15, width: 322, height: 242 }}
         >
           <Scanner onDetected={this._onDetected} />
         </Paper>

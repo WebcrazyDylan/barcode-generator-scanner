@@ -17,8 +17,8 @@ function Home() {
             <Button variant="contained" size="large" color="primary">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="200"
-                height="200"
+                width="100"
+                height="100"
                 style={{ padding: 20 }}
                 fill="currentColor"
                 viewBox="0 0 16 16"
@@ -36,8 +36,8 @@ function Home() {
             <Button variant="contained" size="large" color="secondary">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="200"
-                height="200"
+                width="100"
+                height="100"
                 style={{ padding: 20 }}
                 fill="currentColor"
                 viewBox="0 0 16 16"
