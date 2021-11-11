@@ -8,8 +8,8 @@ class Scanner extends Component {
         inputStream: {
           type: "LiveStream",
           constraints: {
-            width: 320,
-            height: 240,
+            width: 250,
+            height: 250,
             facingMode: "environment"
           }
           //   area: { // defines rectangle of the detection/localization area
@@ -39,7 +39,7 @@ class Scanner extends Component {
         },
         numOfWorkers: 4,
         decoder: {
-          readers: ["code_128_reader"],
+          readers: ["ean_reader", "code_128_reader"],
           debug: {
             drawBoundingBox: true,
             showFrequency: true,
@@ -48,6 +48,7 @@ class Scanner extends Component {
           }
         },
         locate: true
+        // ,patchSize: "medium" // x-small, small, medium, large, x-large
       },
       function (err) {
         if (err) {

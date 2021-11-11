@@ -1,38 +1,38 @@
-import './App.css';
+import "./App.css";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
+  Route
   // Link
 } from "react-router-dom";
 
-import Home from './pages/Home'
-import Bargen from './pages/BarcodeGenerator'
-import Barscan from './pages/BarcodeScanner'
+import Home from "./pages/Home";
+import Bargen from "./pages/BarcodeGenerator";
+import Barscan from "./pages/BarcodeScanner";
+import Barscan2 from "./pages/BarcodeScanner2";
 
 function App() {
   return (
     <div className="App">
       <div className="App-header">
-      
         <Router>
           <div>
-
             <Switch>
               <Route exact path="/">
-                <Home/>
+                <Home />
               </Route>
               <Route path="/barcode_generator">
-                <Bargen/>
+                <Bargen />
               </Route>
               <Route path="/barcode_scanner">
-                <Barscan/>
+                <Barscan />
+              </Route>
+              <Route path="/barcode_scanner2">
+                <Barscan2 />
               </Route>
             </Switch>
-
           </div>
         </Router>
-
       </div>
     </div>
   );
