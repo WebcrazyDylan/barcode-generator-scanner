@@ -51,7 +51,7 @@ function Home() {
           <Typography style={{ margin: 5 }} variant="h5">
             Scanner 2
           </Typography>
-          <Link to="/barcode_scanner2">
+          <Link to="/barcode_scanner4">
             <Button variant="contained" size="large" color="secondary">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

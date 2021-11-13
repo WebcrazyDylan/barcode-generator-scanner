@@ -11,6 +11,7 @@ import Bargen from "./pages/BarcodeGenerator";
 import Barscan from "./pages/BarcodeScanner";
 import Barscan2 from "./pages/BarcodeScanner2";
 import Barscan3 from "./pages/BarcodeScanner3";
+import Barscan4 from "./pages/BarcodeScanner4";
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
               </Route>
               <Route path="/barcode_scanner3">
                 <Barscan3 />
+              </Route>
+              <Route path="/barcode_scanner4">
+                <Barscan4 />
               </Route>
             </Switch>
           </div>
