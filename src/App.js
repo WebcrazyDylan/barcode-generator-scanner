@@ -10,6 +10,7 @@ import Home from "./pages/Home";
 import Bargen from "./pages/BarcodeGenerator";
 import Barscan from "./pages/BarcodeScanner";
 import Barscan2 from "./pages/BarcodeScanner2";
+import Barscan3 from "./pages/BarcodeScanner3";
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
               </Route>
               <Route path="/barcode_scanner2">
                 <Barscan2 />
+              </Route>
+              <Route path="/barcode_scanner3">
+                <Barscan3 />
               </Route>
             </Switch>
           </div>

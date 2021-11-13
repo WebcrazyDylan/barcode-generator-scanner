@@ -79,6 +79,7 @@ function BarcodeScanner2(props) {
       // })
       setBasket([...basket, barcode]);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [barcode]);
 
   return (
@@ -92,8 +93,8 @@ function BarcodeScanner2(props) {
       </div>
       {barcode && <div>Current Barcode: {barcode}</div>}
       {basket &&
-        basket.map((item) => (
-          <div key={item}>{item}</div>
+        basket.map((item, i) => (
+          <div key={i}>{item}</div>
           //   <div key={item.id}>
           //     {item.product} <br />
           //     {item.price} <br />

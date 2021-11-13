@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#scanner-container {
+  position: relative;
+}
+
+.drawingBuffer {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
