@@ -50,7 +50,7 @@ const BarcodeScanner4 = (props) => {
         <div style={{ marginTop: 30 }}>
           <BarcodeScannerComponent
             delay={300}
-            width={250}
+            width={400}
             height={250}
             onError={handleError}
             onUpdate={handleScan}
