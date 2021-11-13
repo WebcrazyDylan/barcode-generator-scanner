@@ -9,7 +9,7 @@ function Home() {
       </Typography>
 
       <Grid container spacing={6}>
-        <Grid item sm={4}>
+        <Grid item sm={6}>
           <Typography style={{ margin: 5 }} variant="h5">
             Generator
           </Typography>
@@ -28,7 +28,7 @@ function Home() {
             </Button>
           </Link>
         </Grid>
-        <Grid item sm={4}>
+        {/* <Grid item sm={4}>
           <Typography style={{ margin: 5 }} variant="h5">
             Scanner
           </Typography>
@@ -46,10 +46,10 @@ function Home() {
               </svg>
             </Button>
           </Link>
-        </Grid>
-        <Grid item sm={4}>
+        </Grid> */}
+        <Grid item sm={6}>
           <Typography style={{ margin: 5 }} variant="h5">
-            Scanner 2
+            New Scanner
           </Typography>
           <Link to="/barcode_scanner4">
             <Button variant="contained" size="large" color="secondary">
